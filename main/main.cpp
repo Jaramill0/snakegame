@@ -64,12 +64,14 @@ void Draw() {
 		cout << endl;
 
 	}
+	// se aplica el puntaje del usuario en el juego
 	for (int i = 0; i < width + 2; i++) {
 		cout << "#";
 		cout << endl;
 		cout << "Puntaje :" << puntaje << endl;
 	}
 }
+
 void input() {
 	if (_kbhit())
 	{
