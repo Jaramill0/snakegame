@@ -13,6 +13,7 @@ const int height = 30; //se agrega la altura de la interfaz
 int tailX[100], tailY[100];
 int ntail;
 int x, y, frutitaX, frutitaY, puntaje;
+// se agrega los movimientos de la serpiente 
 enum Directon
 {
 	STOP = 0, LEFT, RIGHT, UP, DOWN
@@ -29,7 +30,7 @@ void Setup()
 	frutitaY = rand() % height;
 	puntaje = 0;
 }
-
+// se crea la funcion dibujo, donde tendra la interfaz del juego y la figura serpiente
 void Draw() {
 	system("cls"); //metodo para limpiar una nueva partida.
 	for (int i = 0; i < width + 2; i++)
