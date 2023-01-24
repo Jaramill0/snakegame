@@ -113,7 +113,6 @@ void Logic() {
 		prevX = prev2X;
 		prevY = prev2Y;
 
-
 	}
 	//se inserta un switch para las instrucciones del juego y la movilidad de la serpiente en la consola 
 	switch (dir)
