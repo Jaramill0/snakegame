@@ -145,12 +145,10 @@ void Logic() {
 		frutitaY = rand() % height;
 		ntail++;
 	}
-
 }
 // Funcion principal donde se llaman las demas funciones con sus respectivas operaciones 
 int main()
-{
-	// la configuracion inicial
+{	// la configuracion inicial
 	Setup();
 	while (!gameOver)
 	{
