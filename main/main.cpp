@@ -8,8 +8,8 @@
 using namespace std;
 bool gameOver;
 bool print;
-const int width = 30;
-const int height = 30;
+const int width = 30; //se agrega el ancho de la interfaz en la ventana
+const int height = 30; //se agrega la altura de la interfaz 
 int tailX[100], tailY[100];
 int ntail;
 int x, y, frutitaX, frutitaY, puntaje;
