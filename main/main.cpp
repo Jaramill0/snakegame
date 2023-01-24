@@ -96,6 +96,8 @@ void input() {
 		}
 	}
 }
+// se agrega la funcion logica para los movimientos de la serpiente 
+//donde se graban en memoria los movimientos que realiza el usuario en el juego
 void Logic() {
 	int prevX = tailX[0];
 	int prevY = tailY[0];
