@@ -17,7 +17,7 @@ enum Directon
 {
 	STOP = 0, LEFT, RIGHT, UP, DOWN
 };
-
+//juego para aplicacion de consola 
 Directon dir; //coloco las direcciones para el movimiento de la figura
 void Setup()
 {
