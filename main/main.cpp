@@ -18,7 +18,7 @@ enum Directon
 	STOP = 0, LEFT, RIGHT, UP, DOWN
 };
 
-Directon dir; //coloco las direcciones
+Directon dir; //coloco las direcciones para el movimiento de la figura
 void Setup()
 {
 	gameOver = false;
