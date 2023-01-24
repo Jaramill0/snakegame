@@ -71,7 +71,7 @@ void Draw() {
 		cout << "Puntaje :" << puntaje << endl;
 	}
 }
-
+// se agrega la funcion de input para el movimiento de la serpiente en el teclado
 void input() {
 	if (_kbhit())
 	{
