@@ -20,6 +20,7 @@ enum Directon
 };
 //juego para aplicacion de consola 
 Directon dir; //coloco las direcciones para el movimiento de la figura
+// se agrega las funcion incial de la configuracion del juego Serpiente 
 void Setup()
 {
 	gameOver = false;
