@@ -146,8 +146,10 @@ void Logic() {
 	}
 
 }
+// Funcion principal donde se llaman las demas funciones con sus respectivas operaciones 
 int main()
 {
+	// la configuracion inicial
 	Setup();
 	while (!gameOver)
 	{
