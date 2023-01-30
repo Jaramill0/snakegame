@@ -37,7 +37,7 @@ void Draw() {
 	for (int i = 0; i < width + 2; i++)
 		cout << "#";
 	cout << endl;
-
+	//bucles de movimientos de la serpiente con forme  a la interfaz de la terminal 
 	for (int i = 0; i < height; i++) {
 		for (int j = 0; j < width; j++)
 		{
