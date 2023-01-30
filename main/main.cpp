@@ -152,9 +152,11 @@ int main()
 	Setup();
 	while (!gameOver)
 	{
+		//coloco las funciones que tienen el proposito de activar las funciones de cada bloque
 		Draw();
 		input();
 		Logic();
+		//metodo sleep para suspender una ejecucion por un determinado tiempo asignado en el codigo
 		Sleep(10);
 	}
 	return 0;
