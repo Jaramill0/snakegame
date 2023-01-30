@@ -6,6 +6,7 @@
 #include <conio.h>
 #include <Windows.h>
 using namespace std;
+//variables del juego para integrar la funcionalidad
 bool gameOver;
 bool print;
 const int width = 30; //se agrega el ancho de la interfaz en la ventana
