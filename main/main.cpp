@@ -132,6 +132,7 @@ void Logic() {
 	default:
 		break;
 	}
+	//coordenadas del movimiento de juego de la serpiente, en la ventana del terminal
 	if (x > width || x < 0 || y > height || y < 0)
 		gameOver = true;
 	if (x >= width) x = 0; else if (x < 0) x = width - 1;
